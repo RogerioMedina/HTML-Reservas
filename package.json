@@ -1,0 +1,49 @@
+{
+  "name": "pi2--time-1",
+  "version": "1.0.0",
+  "description": "Plataforma de apostas permite que os usuários criem e aceitem apostas em uma variedade de eventos futuros",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/src/server.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "backend",
+    "PI-2",
+    "typescript",
+    "node.js",
+    "web",
+    "PUCbet"
+  ],
+  "author": "Time-1",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.0",
+    "@types/ioredis": "^4.28.10",
+    "@types/node": "^22.8.1",
+    "@types/nodemailer": "^6.4.16",
+    "@types/oracledb": "^6.5.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/date-fns": "^2.5.3",
+    "connect-redis": "^7.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.1",
+    "ioredis": "^5.4.1",
+    "nodemailer": "^6.9.16",
+    "oracledb": "^6.6.0",
+    "redis": "^4.7.0"
+  }
+}
